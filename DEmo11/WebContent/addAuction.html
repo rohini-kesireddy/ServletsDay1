@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Auction</title>
+<style>
+ .myDiv {
+        border: 4px outset red;
+        background-color: DodgerBlue;
+        text-align: center;
+        width: 50%;
+        margin-left: 20%
+       }
+ .mydiv2{
+         border: 4px outset red;
+         background-color: lightblue;
+         text-align: center;
+         width: 50%;
+         margin-left: 20%
+        }
+ .mydiv3{
+         border: 4px outset red;
+         background-color: DodgerBlue;
+         text-align: center;
+         width: 50%;
+         margin-left: 20%
+        }
+</style>
+</head>
+<body>
+<form action="./InsertAuction" method="post">
+
+  <div class="myDiv">
+    <h2>Auction Details</h2>
+  </div>
+  <br>
+<div class= "myDiv">
+  <table margin-left: 30%;>
+       <tr><td><label for ="fid"> Auction ID:</label></td>
+      <td><input type="number" name="auc_id" autofocus required= required placeholder="Enter your team Id"></td>
+      </tr>
+      
+      <tr><td><label for ="fteamname"> Player Id:</label></td>
+      <td><input type="number" name="player_id" autofocus required= required placeholder="Enter your team name"></td>
+      </tr>
+           
+      <tr><td><label for ="fownername"> Team Id:</label></td>
+      <td><input type="number" name="team_id" autofocus required= required placeholder="Enter your owner name"></td>
+      </tr>
+      
+      <tr><td> <label for="fcoachname ">Amount:</label></td>
+     <td> <input type="number" id="amount" name="amount" autofocus required= required  placeholder="Enter your coach name"></td>
+     </tr>
+     
+      </table>
+      <br>
+      <br>
+       <div class= "myDiv">
+      <tr><td> <input type="submit" value="submit"></td></tr>
+      </div>
+       </div>
+</form>
+</body>
+</html>
